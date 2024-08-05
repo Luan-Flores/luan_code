@@ -61,7 +61,9 @@ while True:
                     if opcDentro=='0':
                         os.system('cls')
                         break
-
+    else:
+        print('Opção inválida')
+        continue             
     
     
 
