@@ -1,0 +1,57 @@
+/* seletor{
+    atributo: valor
+} */
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:white;
+}
+
+/* classe -> .NomeClasse */
+.secaoCurriculo{ 
+    background: whitesmoke;
+    
+}
+
+/* id -> #NomeID */
+#cabecaNome{
+    background: #daeef7;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+}
+
+*{
+    margin: 2px;;
+    padding: 2px 2px 2px;  
+}
+
+h2{
+    background-color: #daeef7;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 0px 30px;
+}
+#telefoneImagem{
+    width: 30px;
+    height: 30px;
+    padding: 20px 70px ;
+}
+#profilePic{
+    width: 100px;
+    margin: 100px;
+    padding: 0px 0px 0px 0px;
+}
+.nomePerfil{
+    width: 300px;
+}
+.listaContato{
+    display: flex;
+}
+#emailImagem{
+    width: 40px;
+    height: 40px;
+    padding: 15px 70px ;
+}
